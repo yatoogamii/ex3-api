@@ -18,14 +18,15 @@ Super, maintenant on veut ajouter un bouton qui permets de cacher / faire appara
 
 ## Ex 3
 
-Créer un composant `addCharacter` contenant un formulaire simple avec un seul input et un button d'envoi pour pouvoir ajouter un nouveau personnage à la suite de la liste,
+Créer un composant `addCharacter` contenant un formulaire simple avec un seul input et un button d'envoi pour pouvoir ajouter un nouveau personnage à la suite de la liste
+
 dans ce composant vous devez faire une requete 'POST' vers l'url suivante : 'http://localhost:8080/add/character' (le service est déjà créé) en envoyant la valeur de l'input à chaque fois qu'on appuie sur le bouton d'ajout
 
 ## Ex 4
 
-Génial, on peut maintenant ajouter un nouveau personnage mais j'aimerais une petite indication à partir du moment auquel j'appuie sur le bouton jusqu'au moment ou le personnage est bien entré en base de donnée ( afficher un div par dessous le site indiquant le chargement elle doit disparaitre dès que la requete est resolu )
+Génial, on peut maintenant ajouter un nouveau personnage, mais j'aimerais une petite indication à partir du moment auquel j'appuie sur le bouton jusqu'au moment ou le personnage est bien entré en base de donnée ( afficher une div par dessous le site indiquant le chargement elle doit disparaitre dès que la requete est resolu )
 
-Pour faire ça tu vas ajouter une state dans l'App : `isLoading`, c'est un boolean, si il est true on veut que la div du chargement s'affiche sinon non. ( attention le isLoading doit bien être dans l'app et non dans le composant addCharacter )
+Pour faire ça tu vas ajouter un state dans l'App : `isLoading`, c'est un boolean, si il est true on veut que la div du chargement s'affiche sinon non. ( attention le isLoading doit bien être dans l'app et non dans le composant addCharacter )
 Tu vas ensuite créer une méthode dans l'App que tu vas devoir envoyer dans le composant enfant : `toggleLoading`, cette méthode doit toggle le state `isLoading` de L'App
 
 ## Ex 5
