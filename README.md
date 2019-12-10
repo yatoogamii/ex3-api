@@ -20,7 +20,7 @@ Super, maintenant on veut ajouter un bouton qui permets de cacher / faire appara
 
 Créer un composant `addCharacter` contenant un formulaire simple avec un seul input et un button d'envoi pour pouvoir ajouter un nouveau personnage à la suite de la liste
 
-dans ce composant vous devez faire une requete 'POST' vers l'url suivante : 'http://localhost:8080/add/character' (le service est déjà créé) en envoyant la valeur de l'input à chaque fois qu'on appuie sur le bouton d'ajout
+dans ce composant vous devez faire une requete 'POST' vers l'url suivante : 'http://localhost:8080/add/character' (le service est déjà créé) en envoyant la valeur de l'input de cette façon: `{name: valueOfInput}` à chaque fois qu'on appuie sur le bouton d'ajout
 
 ## Ex 4
 
