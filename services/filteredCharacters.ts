@@ -9,13 +9,13 @@ import CharacterModel from '../models/CharacterModel';
 
 
 
-const OkNo: any = [];	
-const NoOk: any = [];	
-const OkOk: any = []; 
-const NoNo: any = []; 
 
 export default (req: Request,res: Response,next: NextFunction) => {
 
+  const OkNo: any = [];	
+  const NoOk: any = [];	
+  const OkOk: any = []; 
+  const NoNo: any = []; 
 
   CharacterModel.find({cond1:true}, (err: any, data: any)=>{
     for(let element of data) {

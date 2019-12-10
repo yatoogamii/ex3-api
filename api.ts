@@ -14,6 +14,7 @@ const app: express.Application = express();
 // import services
 import getCharacters from './services/getCharacters';
 import filteredCharacters from './services/filteredCharacters';
+import addCharacter from './services/addCharacter';
 
 // middleware
 
@@ -26,6 +27,7 @@ app.use(cors({
 
 app.get('/filter/characters', filteredCharacters)
 app.get('/get/characters', getCharacters)
+app.post('/add/character', addCharacter)
 
 // start the Express server
 app.listen( 8080, () => { console.log( `server started at http://localhost:${ 8080 }` ); } );
