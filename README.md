@@ -9,8 +9,9 @@ Mon code ne marche pas :o ... lorsque j'appelle l'api, la liste qui est retourn√
 
 ## Ex 1 
 
-Faire en sorte qu'on soit certain que l'api renvoie la liste du premier coup dans tous les cas	
+Faire en sorte qu'on soit certain que l'api renvoie la liste du premier coup dans tous les cas
 
+d'ailleurs j'ai possiblement commis d'autres fautes dans le filtre des conditions car les resultats ne sont pas bons, peux tu corriger √ßa ?
 
 ## Ex 2
 
